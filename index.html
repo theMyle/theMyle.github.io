@@ -1,58 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Button Clicker</title>
-  </head>
-  <body>
-    <h1>Button Click Counter</h1>
-    <h2 id="DISPLAY">Count: <span id="display">0</span></h2>
-    <button id="button">Click me (+1)</button>
-    <button id="button-">Click me (-1)</button>
-    <button id="reset">reset</button>
-    
-    <script>
-      var display = document.getElementById("display");
-      var button1 = document.getElementById("button");
-      var button2 = document.getElementById("button-");
-      var reset = document.getElementById("reset");
-      let number = 0;
+<html lang="en">
 
-      button1.onclick = function() {
-        number += 1;
-        display.innerHTML = number;
-      };
-      
-      button2.onclick = function() {
-        number -= 1;
-        display.innerHTML = number;
-      };
-      
-      reset.onclick = function() {
-        number = 0;
-        display.innerHTML = number;
-      };
-    </script>
-    
-    
-    <style>
-      #DISPLAY {
-        border: 1px solid black;
-        padding: 10px;
-      }
-      
-      button {
-        padding: 10px;
-        width: 150px;
-        font-size: 15px;
-        margin: 0 2px 0 2px;
-      }
-      
-      body {
-        text-align: center;
-        margin: 200px auto;
-      }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theMyle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    </style>
-    
-  </body>
+<body>
+    <header>
+        <nav></nav>
+        <div class="profile_container">
+            <img class="profile_picture" src="./assets/profile.jpeg" alt="theMyle Profile Picture">
+            <h1 class="profile_title">theMyle</h1>
+        </div>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
